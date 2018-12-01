@@ -1,12 +1,11 @@
 <template>
-  <section class="util__container">
-    Hello From Blog
+  <div>
     <component 
       v-for="blok in blok.body" 
       :key="blok._uid" 
       :blok="blok" 
       :is="blok.component"/>
-  </section>
+  </div>
 </template>
 
 <script>

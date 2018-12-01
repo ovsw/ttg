@@ -18,7 +18,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Zilla+Slab:400,700'
+        href:
+          'https://fonts.googleapis.com/css?family=Lobster+Two:700i|Montserrat:400,500,700'
       }
     ]
   },
@@ -32,6 +33,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    { src: '~/assets/scss/buefy.scss', lang: 'scss' },
+    { src: '~/assets/scss/main.scss', lang: 'scss' },
     { src: 'jquery.mmenu/dist/jquery.mmenu.css', lang: 'css' },
     {
       src:
@@ -70,7 +73,12 @@ module.exports = {
       'storyblok-nuxt',
       { accessToken: '1DoNYCD5Y2u2LXQbGYDbFwtt', cacheProvider: 'memory' }
     ],
-    'nuxt-buefy'
+    [
+      'nuxt-buefy',
+      {
+        css: false
+      }
+    ]
   ],
   /*
   ** Axios module configuration

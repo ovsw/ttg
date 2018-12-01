@@ -1,5 +1,5 @@
 <template>
-  <div 
+  <section 
     v-editable="blok" 
     class="teaser">
     <component 
@@ -14,7 +14,7 @@
         class="teaser__pag-dot"
         @click="handleDotClick(index)">Next</button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
-  <section class="util__container">
-    <div class="sitemap">
+  <section class="section">
+    <div class="container sitemap">
       <h1 class="title is-1">Sitemap</h1>
       <div 
         v-for="(language, index ) in tree" 
@@ -86,8 +86,4 @@ export default {
 </script>
 
 <style lang="scss">
-.sitemap {
-  max-width: 600px;
-  margin: 20px auto 60px;
-}
 </style>

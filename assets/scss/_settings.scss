@@ -1,0 +1,23 @@
+// Set your colors
+$ttgRed: #d2232a;
+$ttgRed-invert: findColorInvert($ttgRed);
+
+// $crfBlue: #263052;
+$crfBlue: #375285;
+$crfBlue-invert: findColorInvert($crfBlue);
+
+$ttgLight: #fef8e0;
+$ttgLight-invert: findColorInvert($ttgLight);
+
+$ttgLighter: #fefaf2;
+$ttgLighter-invert: findColorInvert($ttgLighter);
+
+$ttgGray: #fefaf2;
+$ttgGray-invert: findColorInvert($ttgGray);
+
+$primary: $ttgRed;
+$primary-invert: findColorInvert($primary);
+
+// fonts
+$family-heading: 'Lobster Two', cursive;
+$family-body: 'Montserrat', sans-serif;

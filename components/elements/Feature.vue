@@ -1,7 +1,7 @@
 <template>
   <div 
     v-editable="blok" 
-    class="feature  util__flex-eq">
+    class="column feature">
     <img 
       :src="resizedIcon" 
       class="feature__icon">

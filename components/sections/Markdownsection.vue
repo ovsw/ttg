@@ -1,8 +1,10 @@
 <template>
-  <div 
-    v-editable="blok"
-    class="content blog__body" 
-    v-html="body"/>
+  <section class="section">
+    <div 
+      v-editable="blok"
+      class="container content" 
+      v-html="body"/>
+  </section>
 </template>
 
 <script>

@@ -46,23 +46,7 @@
       </div></nav>
     
     </header>
-
-    <!-- <header class="top-header util__flex util__container">
-      <nav class="top-header__col">
-        <ul class="top-header__nav">
-          <li 
-            v-for="(navitem, index) in $store.state.settings.main_navi"
-            v-if="index < 3"
-            :key="index">
-            <nuxt-link 
-              :to="'/' + navitem.link.cached_url" 
-              class="top-header__link">
-              {{ navitem.name }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </nav>
-    </header> -->
+    
   </div>
 </template>
 
