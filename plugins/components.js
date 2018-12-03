@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Page from '~/components/pages/Page.vue'
 import Blog from '~/components/pages/Blog.vue'
+import Tour from '~/components/pages/Tour.vue'
 
 import Teaser from '~/components/sections/Teaser.vue'
 import Grid from '~/components/sections/Grid.vue'
@@ -14,6 +15,7 @@ import SitemapItem from '~/components/SitemapItem.vue'
 
 Vue.component('page', Page)
 Vue.component('blog', Blog)
+Vue.component('tour', Tour)
 
 Vue.component('teaser', Teaser)
 Vue.component('grid', Grid)
