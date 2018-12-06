@@ -60,7 +60,12 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['~/plugins/components', { src: '~/plugins/mmenu.js', ssr: false }],
+  plugins: [
+    '~/plugins/components',
+    '~plugins/filters.js',
+    { src: '~/plugins/mmenu.js', ssr: false },
+    { src: '~/plugins/vue-gallery.js', ssr: false }
+  ],
 
   /*
   ** Nuxt.js modules

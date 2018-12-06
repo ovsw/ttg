@@ -6,6 +6,7 @@ import Tour from '~/components/pages/Tour.vue'
 import Teaser from '~/components/sections/Teaser.vue'
 import Grid from '~/components/sections/Grid.vue'
 import Markdownsection from '~/components/sections/Markdownsection.vue'
+import Gallery from '~/components/sections/Gallery.vue'
 
 import Feature from '~/components/elements/Feature.vue'
 import Slide from '~/components/elements/Slide.vue'
@@ -20,6 +21,7 @@ Vue.component('tour', Tour)
 Vue.component('teaser', Teaser)
 Vue.component('grid', Grid)
 Vue.component('markdownsection', Markdownsection)
+Vue.component('gallery', Gallery)
 
 Vue.component('feature', Feature)
 Vue.component('slide', Slide)
