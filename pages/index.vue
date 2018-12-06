@@ -1,12 +1,45 @@
 <template>
- 
-  <component
-    v-if="story.content.component"
-    :key="story.content._uid"
-    :blok="story.content"
-    :is="story.content.component"
-  />
+  <div>
+    <section class="hero is-large hompage-hero">
+      <div class="hero-head"/>
 
+      <div class="hero-body">
+        <div class="container">
+          <p class="title">
+            Guided Tours of Timisoara, Banat & Transylvania
+          </p>
+          <p class="subtitle">
+            Contrasts which will shock your pants off and leave you wanting to come back for more!
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active">
+                <a>City Tours</a>
+              </li>
+              <li>
+                <a>Banat Tours</a>
+              </li>
+              <li>
+                <a>Transylvania Tours</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+      </div> -->
+    </section>
+    <!-- <component
+      v-if="story.content.component"
+      :key="story.content._uid"
+      :blok="story.content"
+      :is="story.content.component"
+    /> -->
+  </div>
 </template>
 
 <script>
@@ -40,3 +73,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.hompage-hero {
+  background: url('/images/ttg-home.jpg') no-repeat center right;
+  background-size: 33em;
+}
+</style>
