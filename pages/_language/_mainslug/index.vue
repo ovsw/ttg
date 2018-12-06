@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section>
     <component
       v-if="story.content.component"
       :key="story.content._uid"
@@ -7,7 +7,6 @@
       :is="story.content.component"
     />
   </section>
-
 </template>
 
 <script>

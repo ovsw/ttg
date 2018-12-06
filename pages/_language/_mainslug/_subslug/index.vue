@@ -15,9 +15,9 @@ import storyblokLivePreview from '@/mixins/storyblokLivePreview'
 
 export default {
   mixins: [storyblokLivePreview],
-  data() {
-    return { story: { content: {} } }
-  },
+  // data() {
+  //   return { story: { content: {} } }
+  // },
   asyncData(context) {
     // Check if we are in the editor mode
     let version =
