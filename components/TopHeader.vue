@@ -34,7 +34,7 @@
         </p>
 
       </nav>
-      <nav class="level is-mobile has-background-primary">
+      <nav class="level is-mobile topbar">
         <!-- Left side -->
         <div class="level-left"/>
 
@@ -89,4 +89,7 @@ export default {
 //     height: calc(100% - 108px) !important;
 //   }
 // }
+.topbar {
+  background-color: $ttgLightRed;
+}
 </style>
