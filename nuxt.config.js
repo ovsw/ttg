@@ -19,7 +19,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Lobster+Two:700i|Montserrat:400,500,700'
+          'https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i|Montserrat:400,500,700'
       }
     ]
   },
