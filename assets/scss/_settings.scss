@@ -2,9 +2,12 @@
 $ttgRed: #d2232a;
 $ttgRed-invert: findColorInvert($ttgRed);
 
+$ttgLightRed: #d09287;
+$ttgLightRed-invert: findColorInvert($ttgLightRed);
+
 // $crfBlue: #263052;
-$crfBlue: #375285;
-$crfBlue-invert: findColorInvert($crfBlue);
+$ttgBlue: #2e4e5e;
+$ttgBlue-invert: findColorInvert($ttgBlue);
 
 $ttgLight: #fef8e0;
 $ttgLight-invert: findColorInvert($ttgLight);
@@ -21,3 +24,23 @@ $primary-invert: findColorInvert($primary);
 // fonts
 $family-heading: 'Lobster Two', cursive;
 $family-body: 'Montserrat', sans-serif;
+
+// mixins
+@mixin breakpoint($point) {
+  @if $point == fullhd {
+    @media (min-width: 1408px) { @content ; }
+ }
+  @else if $point == widescreen {
+    @media (min-width: 1216px) { @content ; }
+ }
+   @else if $point == desktop {
+    @media (min-width: 1023px) { @content ; }
+ }
+  @else if $point == tablet {
+    @media (min-width: 768px)  { @content ; }
+ }
+ @else if $point == mobileonly {
+    @media (max-width: 768px)  { @content ; }
+
+ }
+}

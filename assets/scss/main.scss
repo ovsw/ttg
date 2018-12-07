@@ -3,6 +3,7 @@ body {
   background: url('/images/page-background.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  font-family: $family-body;
 }
 p {
   margin-bottom: rem;
