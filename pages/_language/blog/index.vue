@@ -39,7 +39,7 @@ export default {
         cv: context.store.state.cacheVersion
       })
       .then(res => {
-        console.log(res)
+        //console.log(res)
         return res
       })
       .catch(res => {

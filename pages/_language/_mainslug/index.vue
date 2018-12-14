@@ -29,10 +29,11 @@ export default {
     return context.app.$storyapi
       .get(endpoint, {
         version: version,
+        resolve_relations: 'tours_collection',
         cv: context.store.state.cacheVersion
       })
       .then(res => {
-        console.log(res)
+        //console.log(res)
         return res.data
       })
       .catch(res => {
